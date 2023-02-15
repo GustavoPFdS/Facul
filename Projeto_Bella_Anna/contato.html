@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Anna Bella modelo</title>
+		<link rel="shortcut icon" type="image/png" href="imagens/favicon.ico.png">
+		<link rel="stylesheet" type="text/css" href="css/Bella_Anna.css">
+		<meta name="author" content="Gustavo Pereira Franco da Silva">
+		<meta name="description" content="Site oficial de modelos Anna Bella">
+		<meta name="keywords" content="modelo, mulher, emprego, informação, roupas, beleza">
+		<style>
+			label,textarea, button {
+				width: 95%;
+				margin: auto;
+			}
+			input[type="text"], input[type="email"] {
+				padding: 10px 10px;
+				font-size: 16px;
+				border-radius: 5px;
+				border: 1px solid #ccc;
+				width: 40%;
+			}
+			textarea {
+				font-size: 16px;
+				border-radius: 5px;
+				border: 1px solid #ccc;
+				resize: none;
+				height: 150px;
+				padding: 0px 10px;
+			}
+			button {
+				padding: 10px 20px;
+				background-color: #4CAF50;
+				color: #fff;
+				border: none;
+				cursor: pointer;
+				border-radius: 100px;
+				margin:10px 0 0 0;
+			}
+			input[name="telefone"]{
+				width: 30%;
+			}
+			input[name="endereco"]{
+				width: 44.75%;
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<img src="imagens/capa.png">
+		</header>
+		<nav>
+			<a href="index.html">HOME</a><span>|</span><a href="biografia.html">BIOGRAFIA</a><span>|</span><a href="campanhas.html">CAMPANHAS PUBLICITÁRIAS</a><span>|</span><a href="contato.html">CONTATO</a>
+		</nav>
+		<section>
+			<h1>Contato</h1>
+			<br>
+			<p class="contatin"><b>Email:</b> contato@annabella.com.br</p>
+			<p class="contatin"><b>Telefone:</b> (11) 9978-6589</p>
+			<br>
+		<form>
+			<label for="nome">Nome:</label> <input type="text" name="nome">
+			<label for="email">Email:</label> <input type="email" name="email"> <br> <br>
+			<label for="telefone">Telefone:</label> <input type="text" name="telefone">
+			<label for="endereco">Endereço:</label> <input type="text" name="endereco"> <br> <br>
+			<label for="mensagem">Mensagem:</label> <textarea name="mensagem"></textarea>
+			<label for="Genero">Gênero:</label>
+			<input type="radio" id="Masculino" name="Genero" value="Masculino">
+			<label for="Masculino">Masculino</label>
+			<input type="radio" id="Feminino" name="Genero" value="Feminino">
+			<label for="Feminino">Feminino</label>
+			<input type="radio" id="Outro" name="Genero" value="Outro">
+			<label for="Outro">Outro</label>
+			<button>Enviar</button>
+		</form>
+		</section>
+			<footer>
+				<h4>Todos os direitos Reservados</h4>
+			</footer>
+	</body>
+</html>
