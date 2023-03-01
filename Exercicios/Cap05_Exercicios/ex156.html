@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex156-GustavoPereira</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form action="ex156_resultado.php" method="POST">
+            <label for="estado">Código:</label>
+            <input type="text" id="codigo" name="codigo" required maxlength="10"><br>
+            <label for="estado">Nome:</label>
+            <input type="text" id="nome" name="nome" required maxlength="30"><br>
+            <label for="faixa">Faixa Etária:</label><br>
+            <input type="radio" name="faixa" value="até 10 anos">
+            <label for="até 10 anos">até 10 anos</label><br>
+            <input type="radio" name="faixa" value="entre 10 e 15">
+            <label for="entre 10 e 15">entre 10 e 15</label><br>
+            <input type="radio" name="faixa" value="entre 15 e 20 anos">
+            <label for="entre 15 e 20 anos">entre 15 e 20 anos</label><br>
+            <input type="radio" name="faixa" value="entre 20 e 30 anos">
+            <label for="entre 20 e 30 anos">entre 20 e 30 anos</label><br>
+            <input type="radio" name="faixa" value="acima de 30 anos">
+            <label for="acima de 30 anos">acima de 30 anos</label><br>
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+    <button onclick="window.location.href='index.html'">Voltar</button>
+</body>
+</html>

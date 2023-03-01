@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex1-GustavoPereira</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form action="ex2_resultado.php" method="POST">
+            <label for="estado">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            <div class="lista">
+                <label for="opcoes">Escolha:</label><br>
+                <input type="radio" id="Chico Bento" name="opcao" value="Chico Bento" required>
+                <label for="Chico Bento">Chico Bento</label><br>
+                <input type="radio" id="Mônica" name="opcao" value="Mônica"required>
+                <label for="Mônica">Mônica</label><br>
+                <input type="radio" id="Pato Donald" name="opcao" value="Pato Donald"required>
+                <label for="Pato Donald">Pato Donald</label><br>
+                <input type="radio" id="Branco" name="opcao" value="Branco"required>
+                <label for="Branco">Branco</label><br>
+                <input type="radio" id="Nulo" name="opcao" value="Nulo"required>
+                <label for="Nulo">Nulo</label>
+            </div>
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+    <button onclick="window.location.href='index.html'">Voltar</button>
+</body>
+</html>

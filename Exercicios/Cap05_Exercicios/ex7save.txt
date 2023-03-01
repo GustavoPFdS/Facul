@@ -1,0 +1,9 @@
+Nome: asd
+Idade: 19
+Segredo: asd
+Nome: Gustavo Pereira Franco da Silva 
+Idade: 19
+Segredo: Medo
+Nome: Gustavo Pereira Franco da Silva 
+Idade: 20
+Segredo: 

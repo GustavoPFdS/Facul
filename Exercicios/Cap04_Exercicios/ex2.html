@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex1-GustavoPereira</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <form action="ex2_resultado.php" method="POST">
+            <label for="numero">Numero:</label>
+            <input type="number" id="numero" name="numero" required>
+            <div class="lista">
+                <label for="operacao">Operação:</label><br>
+                <input type="radio" id="dobro" name="operacao" value="dobro" checked>
+                <label for="dobro">Dobro</label><br>
+                <input type="radio" id="cubo" name="operacao" value="cubo">
+                <label for="cubo">Cubo</label><br>
+                <input type="radio" id="raiz" name="operacao" value="raiz">
+                <label for="raiz">Raiz Quadrada</label>
+            </div>
+            <input type="submit" value="Calcular">
+        </form>
+    </div>
+    <button onclick="window.location.href='index.html'">Voltar</button>
+</body>
+
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex1-GustavoPereira</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form action="ex7_resultado.php" method="POST">
+            <label for="estado">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            <label for="numero">Idade:</label>
+            <input type="number" id="numero" name="numero" required min="0" max="130"><br>
+            <label for="estado">Segredo:</label>
+            <input type="text" id="info" name="info" required>
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+    <button onclick="window.location.href='index.html'">Voltar</button>
+</body>
+</html>
